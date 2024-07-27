@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">#00B8ED</item>
+        <item name="android:navigationBarColor">#00B8ED</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme" />
+    
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar.Surface">
+        <item name="titleTextAppearance">@style/Widget.App.Title</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:layout_height">?android:actionBarSize</item>
+    </style>
+    
+    <style name="Widget.App.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Widget.App.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemIconTint">@color/navigation_item_icon_tint</item>
+        <item name="itemTextColor">@color/navigation_item_text_color</item>
+        <item name="itemShapeFillColor">@color/navigation_item_background_color</item>
+        
+    </style>
+</resources>

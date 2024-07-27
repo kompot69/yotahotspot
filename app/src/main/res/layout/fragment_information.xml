@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:text="ОБ УСТРОЙСТВЕ"
+        android:textAlignment="center"
+        android:textColor="#00B8ED"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_device"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/device"
+                app:tint="#00B8ED" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="model"
+                    android:layout_marginTop="13dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/batteryImg"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:alpha=".60"
+                        app:srcCompat="@drawable/battery_0" />
+
+                    <TextView
+                        android:id="@+id/battery_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="battery_percent"
+                        android:textColor="#99000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/wa_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wa_version"
+                android:textColor="#99000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/imei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imei"
+            android:textColor="#99000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lan_ipaddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lan_ipaddr"
+            android:textColor="#99000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/need_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="need_login"
+            android:textColor="#99000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

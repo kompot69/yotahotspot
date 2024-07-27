@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main"
+        android:title="Главная"
+        android:icon="@drawable/home_1"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/information"
+        android:title="Об устройстве"
+        android:icon="@drawable/device"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/network_information"
+        android:title="Информация о сети и SIM"
+        android:icon="@drawable/signal_4"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/wifi_settings"
+        android:title="Настройки WiFi"
+        android:icon="@drawable/wifi_3"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/wifi_clients"
+        android:title="Клиенты WiFi"
+        android:icon="@drawable/users_2"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/about"
+        android:title="О приложении"
+        android:icon="@drawable/info"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+    
+</menu>
